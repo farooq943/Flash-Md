@@ -80,7 +80,7 @@ setTimeout(() => {
         const sockOptions = {
             version,
             logger: pino({ level: "silent" }),
-            browser: ['Flash-Md', "safari", "1.0.0"],
+            browser: ['𝑭𝑨𝑹𝑶𝑶𝑸-𝑯𝑨𝑪𝑲𝑬𝑹', "safari", "1.0.0"],
             printQRInTerminal: true,
             fireInitQueries: false,
             shouldSyncHistoryMessage: true,
@@ -428,7 +428,7 @@ function mybotpic() {
                                    // txt += `message supprimé \n @${auteurMessage.split("@")[0]} rétiré du groupe.`;
                                     const gifLink = "https://raw.githubusercontent.com/djalega8000/Zokou-MD/main/media/remover.gif";
                                     var sticker = new Sticker(gifLink, {
-                                        pack: 'Flash-Md',
+                                        pack: '𝑭𝑨𝑹𝑶𝑶𝑸-𝑯𝑨𝑪𝑲𝑬𝑹',
                                         author: conf.OWNER_NAME,
                                         type: StickerTypes.FULL,
                                         categories: ['🤩', '🎉'],
@@ -526,7 +526,7 @@ function mybotpic() {
            // txt += `message supprimé \n @${auteurMessage.split("@")[0]} rétiré du groupe.`;
             const gifLink = "https://raw.githubusercontent.com/djalega8000/Zokou-MD/main/media/remover.gif";
             var sticker = new Sticker(gifLink, {
-                pack: 'Flash-Md',
+                pack: '𝑭𝒂𝒓𝒐𝒐𝒒-𝑯𝒂𝒄𝒌𝒆𝒓',
                 author: conf.OWNER_NAME,
                 type: StickerTypes.FULL,
                 categories: ['🤩', '🎉'],
@@ -670,7 +670,7 @@ zk.ev.on('group-participants.update', async (group) => {
         const metadata = await zk.groupMetadata(group.id);
 
         if (group.action == 'add' && (await recupevents(group.id, "welcome") == 'on')) {
-            let msg = `◇FLASH-MD◇
+            let msg = `◇Farooq-Hacker◇
 `;
              
             let membres = group.participants;
@@ -688,7 +688,7 @@ zk.ev.on('group-participants.update', async (group) => {
 
 ${metadata.desc}
 
-📌Powered by *France King®🐐*`;
+📌Powered by *𝑭𝑨𝑹𝑶𝑶𝑸 𝑯𝑨𝑪𝑲𝑬𝑹🐐*`;
 
             zk.sendMessage(group.id, { image: { url: ppgroup }, caption: msg, mentions: membres });
         } else if (group.action == 'remove' && (await recupevents(group.id, "goodbye") == 'on')) {
@@ -870,17 +870,17 @@ ${metadata.desc}
      ▞▚▞▚▞▚▞▚▞▚▞▚▞▚▞▚▞▚▞▚▞▚▞▚▞▚
      ▞▚▞▚▞▚▞▚▞▚▞▚▞▚▞▚▞▚▞▚▞▚▞▚▞▚
  
-║❒ _Join *FLASH-MD* Channel for Updates_
-https://whatsapp.com/channel/0029VaTbb3p84Om9LRX1jg0P
+║❒ _Join *FAROOQ-HACKER* Channel for Updates_
+https://chat.whatsapp.com/LK7HQ7ZGdNw73Z60jAjqsn
 
 ║❒ *JOIN OUR WhatsApp Gʀᴏᴜᴘ*
-https://chat.whatsapp.com/CtBGmUkwXiA6kGYAyU5MaX
+https://chat.whatsapp.com/LK7HQ7ZGdNw73Z60jAjqsn
 
 ║❒ *FOLLOW THE DEVELOPER* 🪄 
-https://instagram.com/france.king1 
+https://chat.whatsapp.com/LK7HQ7ZGdNw73Z60jAjqsn 
 
 
-              *𝐅𝐋𝐀𝐒𝐇-𝐌𝐃*`;
+              *𝑭𝑨𝑹𝑶𝑶𝑸-𝑯𝑨𝑪𝑲𝑬𝑹*`;
                 await zk.sendMessage(zk.user.id, { text: cmsg });
                 }
             }
