@@ -4,7 +4,7 @@
 
 
 
-<img src="https://telegra.ph/file/3f985014b51b3cf335bfe.jpg" width="700" height="300"/>
+<img src="[https://telegra.ph/file/3f985014b51b3cf335bfe.jpg](https://telegra.ph/file/63be7509b813ea85d711f.jpg)" width="700" height="300"/>
 
 
 
@@ -31,5 +31,5 @@ Enjoy the diverse features of the Flash-Md  to enhance your conversations and ma
 ## Developer:
 
 - [**Instagram**](https://instagram.com/france.king1)
-- [**WhatsApp**](https://wa.me/254757835036)
+- [**WhatsApp**](https://wa.me/+923168477664)
 
