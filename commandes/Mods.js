@@ -110,7 +110,7 @@ fs.unlinkSync(medis)
 
           const sticker = new Sticker(buffer.data, {
             pack: nomAuteurMessage,
-            author: "FLASH-MD",
+            author: "𝑭𝑨𝑹𝑶𝑶𝑸_𝑴𝑨𝑮𝑺𝑰",
             type: StickerTypes.FULL,
             categories: ['🤩', '🎉'],
             id: '12345',
@@ -527,7 +527,7 @@ zokou({ nomCom: "save", categorie: "OWNER" }, async (dest, zk, commandeOptions) 
           let media  = await zk.downloadAndSaveMediaMessage(msgRepondu.stickerMessage)
 
           let stickerMess = new Sticker(media, {
-            pack: 'FLASH-MD',
+            pack: '𝗙𝗔𝗥𝗢𝗢𝗤_𝗠𝗔𝗚𝗦𝗜',
             type: StickerTypes.CROPPED,
             categories: ["🤩", "🎉"],
             id: "12345",
