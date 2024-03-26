@@ -87,7 +87,7 @@ fs.unlinkSync(medis)
         type = 'not animated sticker'
       }
 
-      let msg = `   Flash-stickers-dl
+      let msg = `   Farooq-stickers-dl
       
   *Name :* ${stickers.data.result.name}
   *Type :* ${type} 
