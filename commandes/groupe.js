@@ -250,7 +250,7 @@ zokou({ nomCom: "remove", categorie: 'Group', reaction: "👨🏿‍💼" }, asy
             if (admin == false) {
               const gifLink = "https://raw.githubusercontent.com/djalega8000/Zokou-MD/main/media/remover.gif"
               var sticker = new Sticker(gifLink, {
-                pack: 'FLASH-MD', // The pack name
+                pack: '𝐅𝐀𝐑𝐎𝐎𝐐-𝐌𝐀𝐆𝐒𝐈', // The pack name
                 author: nomAuteurMessage, // The author name
                 type: StickerTypes.FULL, // The sticker type
                 categories: ['🤩', '🎉'], // The sticker category
@@ -698,7 +698,7 @@ zokou({nomCom:"hidetag",categorie:'Group',reaction:"🎤"},async(dest,zk,command
         let media  = await zk.downloadAndSaveMediaMessage(msgRepondu.stickerMessage)
 
         let stickerMess = new Sticker(media, {
-          pack: 'FLASH-MD-tag',
+          pack: '𝐅𝐀𝐑𝐎𝐎𝐐-𝐌𝐀𝐆𝐒𝐈-tag',
           type: StickerTypes.CROPPED,
           categories: ["🤩", "🎉"],
           id: "12345",
