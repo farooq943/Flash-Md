@@ -43,21 +43,21 @@ const temps = moment().format('HH:mm:ss');
 const date = moment().format('DD/MM/YYYY');
 
   let infoMsg =  `
-╭────✧𝐅𝐋𝐀𝐒𝐇-𝐌𝐃✧────◆
-│🌠 *Préfix* : ${s.PREFIXE}
-│🌠 *User* : ${s.OWNER_NAME}
-│🌠 *Mode* : ${mode}
-│🌠 *Commands* : ${cm.length} 
-│🌠 *Date* : ${date}
-│🌠 *Time* : ${temps} 
-│🌠 *Ram* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
-│🌠 *Platform* : Linux 
-│🌠 *Uptime*: ${runtime(process.uptime())}
-╰─────✧The-GOAT✧─────◆ \n\n`;
+╭───✧🌟𝐅𝐀𝐑𝐎𝐎𝐐-𝐌𝐀𝐆𝐒𝐈🌟✧─◆☄️
+│🌠🔥*Préfix* : ${s.PREFIXE}
+│🌠🔥*User* : ${s.OWNER_NAME}
+│🌠🔥*Mode* : ${mode}
+│🌠🔥*Commands* : ${cm.length} 
+│🌠🔥*Date* : ${date}
+│🌠🔥*Time* : ${temps} 
+│🌠🔥*Ram* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
+│🌠🔥*Platform* : Linux 
+│🌠🔥*Uptime*: ${runtime(process.uptime())}
+╰───✧🌟𝐅𝐀𝐑𝐎𝐎𝐐-𝐁𝐎𝐓🌟✧─────◆☄️ \n\n`;
 
   let menuMsg=`  
 
-*FLASH-MD COMMANDS :*
+*🌟𝐅𝐀𝐑𝐎𝐎𝐐_𝐌𝐀𝐆𝐒𝐈🦋 :*
 ◇                             ◇
 `;
 
@@ -75,7 +75,7 @@ const date = moment().format('DD/MM/YYYY');
 ◇            ◇
 *————— ★ —————*
 
-  *📌France King®🐐²0²⁴*                                         
+  *🌟𝐅𝐀𝐑𝐎𝐎𝐐_𝐌𝐀𝐆𝐒🌟𝐈*                                         
 *╰═════════════⊷*
 `;
 
@@ -93,7 +93,7 @@ const date = moment().format('DD/MM/YYYY');
 // Vérification pour .jpeg ou .png
 else if (lien.match(/\.(jpeg|png|jpg)$/i)) {
     try {
-        zk.sendMessage(dest, { image: { url: lien }, caption:infoMsg + menuMsg, footer: "*📌France King*" }, { quoted: ms });
+        zk.sendMessage(dest, { image: { url: lien }, caption:infoMsg + menuMsg, footer: "*📌𝐅𝐀𝐑𝐎𝐎𝐐 𝐌𝐀𝐆𝐒𝐈*" }, { quoted: ms });
     }
     catch (e) {
         console.log("🥵🥵 Menu erreur " + e);
