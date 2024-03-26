@@ -43,21 +43,21 @@ const temps = moment().format('HH:mm:ss');
 const date = moment().format('DD/MM/YYYY');
 
   let infoMsg =  `
-╭────✧𝐅𝐋𝐀𝐒𝐇-𝐌𝐃✧────◆
-│🌠 *Préfix* : ${s.PREFIXE}
-│🌠 *User* : ${s.OWNER_NAME}
-│🌠 *Mode* : ${mode}
-│🌠 *Commands* : ${cm.length} 
-│🌠 *Date* : ${date}
-│🌠 *Time* : ${temps} 
-│🌠 *Ram* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
-│🌠 *Platform* : Linux 
-│🌠 *Uptime*: ${runtime(process.uptime())}
-╰─────✧The-GOAT✧─────◆ \n\n`;
+╭────✧🔥𝗙𝗔𝗥𝗢𝗢𝗤-𝗠𝗔𝗚𝗦𝗜🔥✧────◆
+│🌠🔥*Préfix* : ${s.PREFIXE}
+│🌠🔥*User* : ${s.OWNER_NAME}
+│🌠🔥*Mode* : ${mode}
+│🌠🔥*Commands* : ${cm.length} 
+│🌠🔥*Date* : ${date}
+│🌠🔥*Time* : ${temps} 
+│🌠🔥*Ram* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
+│🌠🔥*Platform* : Linux 
+│🌠🔥*Uptime*: ${runtime(process.uptime())}
+╰─────✧⚡𝗙𝗔𝗥𝗢𝗢𝗤-𝗠𝗔𝗚𝗦𝗜🔥✧───◆ \n\n`;
 
   let menuMsg=`  
 
-*FLASH-MD COMMANDS :*
+*𝗙𝗔𝗥𝗢𝗢𝗤-𝗠𝗔𝗚𝗦𝗜 :*
 ◇                             ◇
 `;
 
@@ -93,7 +93,7 @@ const date = moment().format('DD/MM/YYYY');
 // Vérification pour .jpeg ou .png
 else if (lien.match(/\.(jpeg|png|jpg)$/i)) {
     try {
-        zk.sendMessage(dest, { image: { url: lien }, caption:infoMsg + menuMsg, footer: "*📌France King*" }, { quoted: ms });
+        zk.sendMessage(dest, { image: { url: lien }, caption:infoMsg + menuMsg, footer: "*🔥𝗙𝗔𝗥𝗢𝗢𝗤_𝗠𝗔𝗚𝗦𝗜🔥*" }, { quoted: ms });
     }
     catch (e) {
         console.log("🥵🥵 Menu erreur " + e);
