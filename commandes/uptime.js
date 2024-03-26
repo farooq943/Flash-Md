@@ -28,7 +28,7 @@ zokou({ nomCom: 'uptime',
   async (dest, zk, commandeOptions) => {
     const { ms, arg, repondre } = commandeOptions;
 
-                 await repondre(`*_Uptime of FLASH-MD: ${runtime(process.uptime())}_*`) 
+                 await repondre(`*_Uptime of  🌟𝐅𝐀𝐑𝐎𝐎𝐐-𝐌𝐀𝐆𝐒𝐈🌟: ${runtime(process.uptime())}_*`) 
 
    
 
@@ -57,7 +57,7 @@ let linkkk = `https://api.screenshotmachine.com/?key=c04d3a&url=${encodeURICompo
 
 let res = await getBuffer(linkkk);
 
-await zk.sendMessage(dest, { image: res, caption: 'Web Screenshot by *FLASH-MD*'}, { quoted: ms });
+await zk.sendMessage(dest, { image: res, caption: 'Web Screenshot by * 🌟𝐅𝐀𝐑𝐎𝐎𝐐-𝐌𝐀𝐆𝐒𝐈🌟*'}, { quoted: ms });
 
 
 }
