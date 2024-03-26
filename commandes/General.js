@@ -55,12 +55,12 @@ zokou({ nomCom: "developer", categorie: "General", reaction: "💞" }, async (de
     const { ms, mybotpic } = commandeOptions;
 
     const devs = [
-      { nom: "France King", numero: "254757835036" },
-      { nom: "᚛FranceKing᚜", numero: "254751284190" },
+      { nom: "𝗙𝗔𝗥𝗢𝗢𝗤_𝗠𝗔𝗚𝗦𝗜", numero: "923123681251" },
+      { nom: "𝗙𝗔𝗥𝗢𝗢𝗤_𝗠𝗔𝗚𝗦𝗜", numero: "923123681251" },
       // Ajoute d'autres développeurs ici avec leur nom et numéro
     ];
 
-    let message = "👋 *Welcome to Flash-Md!* here is the developer numbers:\n\n";
+    let message = "👋 *Welcome to FAROOQ-MAGSI!* here is the developer numbers:\n\n";
     for (const dev of devs) {
       message += `----------------\n• ${dev.nom} : https://wa.me/${dev.numero}\n`;
     }
@@ -95,7 +95,7 @@ zokou({ nomCom: "support", categorie: "General" }, async (dest, zk, commandeOpti
   const { ms, repondre, auteurMessage, } = commandeOptions; 
  
   repondre("look on pm sir ")
-  await zk.sendMessage(auteurMessage,{text : `https://wa.me/254757835036`},{quoted :ms})
+  await zk.sendMessage(auteurMessage,{text : `https://wa.me/923123681251`},{quoted :ms})
 
 })
 
